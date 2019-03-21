@@ -1,5 +1,5 @@
-# Project Title
-This is my own CV built in React JS tecnology
+# My Resumé
+This is my own CV built in React!
 
 ## Getting Started
 After cloned this repository you should run the following command before anything else
