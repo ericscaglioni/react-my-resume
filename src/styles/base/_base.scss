@@ -27,6 +27,24 @@ h6 {
   color: $headers-font-color;
 }
 
+h1 {
+    font-size: $xl-size;
+    line-height: $xl-size;
+}
+
+h2 {
+    font-size: $l-size;
+}
+
+h3 {
+    font-size: $m-size;
+}
+
+p.lead {
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+
 button {
     cursor: pointer;
 }
