@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import profilePic from '../img/profile.jpg';
 import {FormattedMessage} from 'react-intl';
 
+import Language from './Language';
+
 const SideBar = (props) => (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
         <a className="navbar-brand js-scroll-trigger" href="#page-top">
@@ -42,7 +44,11 @@ const SideBar = (props) => (
                 </li>
             </ul>
         </div>
-        <button onClick={(e) => {props.onChangeLanguage('pt')}}>Trocar linguagem</button>
+        <Language
+            onChangeLanguage={props.onChangeLanguage}
+            languageIcon={props.languageIcon}
+            currentLanguage={props.currentLanguage}
+        />
     </nav>
 );
 
