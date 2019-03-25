@@ -6,7 +6,6 @@ class Home extends Component {
         return (
             <div>
                 <Sidebar />
-                <h1>This is my Resumé!</h1>
             </div>
         );
     }

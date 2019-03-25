@@ -5,7 +5,7 @@
   }
   
   #sideNav .navbar-toggler:focus {
-    outline-color: #d48a6e;
+    outline-color: $secondary-color;
   }
   
   @media (min-width: 992px) {
@@ -21,7 +21,7 @@
       -webkit-box-direction: normal;
       -ms-flex-direction: column;
       flex-direction: column;
-      width: 17rem;
+      width: $sidebar-size;
       height: 100vh;
     }
     #sideNav .navbar-brand {
