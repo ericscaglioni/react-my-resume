@@ -1,5 +1,6 @@
 import React from 'react';
 import MenuLink from './MenuLink';
+import Language from './Language';
 
 const MenuLinks = (props) => (
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -9,6 +10,13 @@ const MenuLinks = (props) => (
                     <MenuLink key={option.id} id={option.id} description={option.key} />
                 ))
             }
+            <li className="nav-item">
+                <Language
+                    onChangeLanguage={props.onChangeLanguage}
+                    languageIcon={props.languageIcon}
+                    currentLanguage={props.currentLanguage}
+                />
+            </li>
         </ul>
     </div>
 );

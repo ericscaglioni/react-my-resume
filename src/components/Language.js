@@ -7,7 +7,7 @@ export default class Language extends Component {
 
     render() {
         return (
-            <a onClick={this.onChangeLanguage} href="#">
+            <a className="nav-link js-scroll-trigger" onClick={this.onChangeLanguage} href="#">
                 <img className="img-fluid" src={this.props.languageIcon} alt=''/>
             </a>
         );

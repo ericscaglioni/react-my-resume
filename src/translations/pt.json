@@ -3,5 +3,8 @@
     "menu.experiences": "Experiência",
     "menu.education": "Educação",
     "menu.skills": "Habilidades",
-    "menu.interests": "Interesses"
+    "menu.interests": "Interesses",
+
+    "about.address": "Rua {street}, {number}, {district} · {city}, {state} - {country} · CEP {zipCode} · Telefone: {phoneNumber} · ",
+    "about.description": "{about}"
 }
