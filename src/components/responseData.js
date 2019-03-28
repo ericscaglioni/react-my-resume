@@ -17,6 +17,15 @@ const responseData =
             "state": "SP",
             "country": "Brasil"
         },
+        "experiences": [
+            {
+                "company": "empresa",
+                "jobDescription": "eruehreh riheirheihreh riuehrhe iuhrieuhr",
+                "jobTitle": "Teste",
+                "beginingDate": "Março, 2018",
+                "endingDate": "Setembro, 2018"
+            }
+        ],
         "urls": {
             "linkedIn": "https://www.linkedin.com/in/eric-ferreira-700900a3/",
             "github": "https://www.github.com/ericscaglioni"
@@ -28,7 +37,7 @@ const responseData =
                     "Busco uma vaga de Full Stack que envolva bastante Front End com React ou Angular!",
         "aboutEn": "Full Stack Developer with more than 3 years of experience in ASP.NET MVC, C#, CSS, JavaScript, JQuery, HTML, PLSQL (Oracle) and SQL Server. " +
                     "I also have 4 years of experience developing desktop applications both in VB.NET and C#. " +
-                    "As a committed person who has a strong will to learn, I always look for professional challenges. " +
+                    "As a committed person who has a strong will to learn, I've always looked for professional challenges. " +
                     "I'm outgoing and because of that I've no troubles working on a team and I love getting involved and helping my colleagues to find out the best solution for a problem. " +
                     "I look for a position of Full Stack Developer that involves Front End with React or Angular!"
     },
